@@ -153,23 +153,35 @@ select {
 							<!--<input type="radio" name="exe" value=0>no-->
 						</div>
 						<div class="form-group">
+							<label for="goals">What are your fitness goals?</label>
+							<select class="form-control" id="goals" name="goals">
+								<option value="weight-loss">Weight loss</option>
+								<option value="muscle-gain">Muscle gain</option>
+								<option value="overall-fitness">Overall fitness</option>
+								<option value="other">Other</option>
+							</select>
+						</div>
+						<div class="form-group">
 							<label>How do you like to read about your favourite topics?</label>
-							<p>
-							  <input type="checkbox" name="book">Books
-							  <input type="checkbox" name="online">Online resources
-							  <input type="checkbox" name="Phone app">Phone app
-							  <input type="checkbox" name="magazines">Magzanine
-							</p>	
+							<select class="form-control" id="goals" name="goals">
+								<option value="Books">Books</option>
+								<option value="Online Reasources">Online Reasources</option>
+								<option value="Magazines">Magazines</option>
+								<option value="other">Other</option>
+							</select>
+								
 						</div>
 						<div class="form-group">
 							<label>Which genra of movie do you like?</label>
         					<select name="moviepref">
           					<option>
           						<option value=1 selected="true">comedy
-          						<option value=2>romance
-          						<option value=3>thriller
-          						<option value=4>horror
-          						<option value=5>biopic
+          						<option value=2>Romance
+          						<option value=3>Thriller
+          						<option value=4>Horror
+          						<option value=5>Biopic
+								<option value=5>Action	
+								<option value=5>Other
         					</select>
 						</div>
 						<div class="form-group">
@@ -196,3 +208,4 @@ select {
 	<script src="script.js"></script>
 </body>
 </html>
+
